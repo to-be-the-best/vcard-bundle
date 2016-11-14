@@ -1,5 +1,5 @@
 {
-    "name": "jeroendesloovere/vcard-bundle",
+    "name": "to-be-the-best/vcard-bundle",
     "type": "library",
     "description": "This Symfony 2 bundle can generate vCards with lots of data. When using an < iOS 7 device it will export as a .ics file because iOS devices don't support the default .vcf files.",
     "keywords": ["symfony2", "bundle", "vcard", "generator", ".vcf", "php"],
@@ -13,9 +13,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "url": "https://github.com/to-be-the-best/vcard.git",
+            "type": "git"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
-        "jeroendesloovere/vcard": "~1.2"
+        "to-be-the-best/vcard": "~4.0"
     },
     "require-dev": {
         "symfony/framework-bundle": "~3.0"
